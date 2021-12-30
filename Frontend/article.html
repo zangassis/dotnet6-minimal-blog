@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/devto.css">
+    <link rel="stylesheet" href="./style/article.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oxanium:600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <a><img src="./icons/providence.png" alt="providence" height="20px" right="20px" class="logo name" href="index.html"> <span class="name"></span></a>
+            <div class="header-right">
+                <a class="active" href="index.html">Home</a>
+                <a id="github" target="_blank" rel="noopener" href="https://github.com/">GitHub</a>
+                <a id="devto" target="_blank" rel="noopener" href="https://dev.to/">dev.to</a>
+                <a href="/about">About</a>
+            </div>
+        </div>
+    </header>
+    <article>
+        <img id="cover" alt="cover image">
+        <h1 id="title"></h1>
+        <address>
+            <ul>
+                <li>
+                    by <span id="author-name" class="name"></span>
+                </li>
+                <li>
+                    <i class="fa fa-clock-o"></i> <span id="date" class="date"></span>
+                </li>
+                <li>
+                    <i class="fa fa-github-alt" aria-hidden="true"></i> <a id="github" target="_blank" rel="noopener" href="https://github.com/zangassis">GitHub</a>
+                </li>
+                <li>
+                    <i class="fa fa-code" aria-hidden="true"></i> <a id="devto" target="_blank" rel="noopener" href="https://dev.to/zangassis">dev.to</a>
+                </li>
+            </ul>
+        </address>
+        <ul id="tags"></ul>
+        <div id="article-body"></div>
+    </article>
+    <script src="./script/article.js"></script>
+</body>
+
+</html>

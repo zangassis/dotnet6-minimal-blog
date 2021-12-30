@@ -1,0 +1,79 @@
+:root {
+    --paper-margin: 60px;
+    --main-color: #0c1c27;
+    --my-gradient: linear-gradient(to right, var(--main-color) 0%, #9cdd05 100%);
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans';
+    letter-spacing: 0.05px;
+    font-size: 1.05em;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+}
+
+footer {
+    background: #061621;
+}
+
+footer>p {
+    text-align: center;
+    background: #061621;
+    line-height: 80px;
+    padding: 0 20px;
+    color: #ffffff;
+}
+
+footer>p>a {
+    text-decoration: none;
+    color: #9cdd05;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #061621;
+    padding: 20px 10px;
+}
+
+.header a {
+    float: left;
+    color: #9cdd05;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header a:hover {
+    background-color: #0c1c27;
+    color: #9cdd05;
+}
+
+.header a.active {
+    background-color: #0c1c27;
+    color: #9cdd05;
+}
+
+.header-right {
+    float: right;
+}
+
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-right {
+        float: none;
+    }
+}

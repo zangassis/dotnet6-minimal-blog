@@ -1,0 +1,682 @@
+/* Taken from https://github.com/thepracticaldev/dev.to/blob/master/app/assets/stylesheets/syntax.scss */
+
+div.highlight pre.highlight code {
+    font-size: inherit;
+    padding: 0px;
+}
+
+div.inner-comment div.body div.highlight pre.highlight {
+    background: #29292e;
+}
+
+div.inner-comment div.body div.highlight pre.highlight code {
+    font-size: inherit;
+    white-space: inherit;
+    background: inherit;
+    color: inherit;
+}
+
+.highlight .hll {
+    background-color: #49483e;
+}
+
+.highlight {
+    background: #29292e;
+    color: #f8f8f2;
+}
+
+.highlight .c {
+    color: #75715e;
+}
+
+
+/* Comment */
+
+.highlight .err {
+    text-shadow: 0 0 3px #ff3030, 0 0 5px #ff3030, 0 0 10px #ff3030;
+}
+
+
+/* Error */
+
+.highlight .k {
+    color: #66d9ef;
+}
+
+
+/* Keyword */
+
+.highlight .l {
+    color: #ae81ff;
+}
+
+
+/* Literal */
+
+.highlight .n {
+    color: #f8f8f2;
+}
+
+
+/* Name */
+
+.highlight .o {
+    color: #f92672;
+}
+
+
+/* Operator */
+
+.highlight .p {
+    color: #f8f8f2;
+}
+
+
+/* Punctuation */
+
+.highlight .ch {
+    color: #75715e;
+}
+
+
+/* Comment.Hashbang */
+
+.highlight .cm {
+    color: #75715e;
+}
+
+
+/* Comment.Multiline */
+
+.highlight .cp {
+    color: #75715e;
+}
+
+
+/* Comment.Preproc */
+
+.highlight .cpf {
+    color: #75715e;
+}
+
+
+/* Comment.PreprocFile */
+
+.highlight .c1 {
+    color: #75715e;
+}
+
+
+/* Comment.Single */
+
+.highlight .cs {
+    color: #75715e;
+}
+
+
+/* Comment.Special */
+
+.highlight .gd {
+    color: #f92672;
+}
+
+
+/* Generic.Deleted */
+
+.highlight .gi {
+    color: #a6e22e;
+}
+
+
+/* Generic.Inserted */
+
+.highlight .gs {
+    font-weight: bold;
+}
+
+
+/* Generic.Strong */
+
+.highlight .gu {
+    color: #75715e;
+}
+
+
+/* Generic.Subheading */
+
+.highlight .kc {
+    color: #66d9ef;
+}
+
+
+/* Keyword.Constant */
+
+.highlight .kd {
+    color: #66d9ef;
+}
+
+
+/* Keyword.Declaration */
+
+.highlight .kn {
+    color: #f92672;
+}
+
+
+/* Keyword.Namespace */
+
+.highlight .kp {
+    color: #66d9ef;
+}
+
+
+/* Keyword.Pseudo */
+
+.highlight .kr {
+    color: #66d9ef;
+}
+
+
+/* Keyword.Reserved */
+
+.highlight .kt {
+    color: #66d9ef;
+}
+
+
+/* Keyword.Type */
+
+.highlight .ld {
+    color: #e6db74;
+}
+
+
+/* Literal.Date */
+
+.highlight .m {
+    color: #ae81ff;
+}
+
+
+/* Literal.Number */
+
+.highlight .s {
+    color: #e6db74;
+}
+
+
+/* Literal.String */
+
+.highlight .na {
+    color: #a6e22e;
+}
+
+
+/* Name.Attribute */
+
+.highlight .nb {
+    color: #f8f8f2;
+}
+
+
+/* Name.Builtin */
+
+.highlight .nc {
+    color: #a6e22e;
+}
+
+
+/* Name.Class */
+
+.highlight .no {
+    color: #66d9ef;
+}
+
+
+/* Name.Constant */
+
+.highlight .nd {
+    color: #a6e22e;
+}
+
+
+/* Name.Decorator */
+
+.highlight .ni {
+    color: #f8f8f2;
+}
+
+
+/* Name.Entity */
+
+.highlight .ne {
+    color: #a6e22e;
+}
+
+
+/* Name.Exception */
+
+.highlight .nf {
+    color: #a6e22e;
+}
+
+
+/* Name.Function */
+
+.highlight .nl {
+    color: #f8f8f2;
+}
+
+
+/* Name.Label */
+
+.highlight .nn {
+    color: #f8f8f2;
+}
+
+
+/* Name.Namespace */
+
+.highlight .nx {
+    color: #a6e22e;
+}
+
+
+/* Name.Other */
+
+.highlight .py {
+    color: #f8f8f2;
+}
+
+
+/* Name.Property */
+
+.highlight .nt {
+    color: #f92672;
+}
+
+
+/* Name.Tag */
+
+.highlight .nv {
+    color: #f8f8f2;
+}
+
+
+/* Name.Variable */
+
+.highlight .ow {
+    color: #f92672;
+}
+
+
+/* Operator.Word */
+
+.highlight .w {
+    color: #f8f8f2;
+}
+
+
+/* Text.Whitespace */
+
+.highlight .mb {
+    color: #ae81ff;
+}
+
+
+/* Literal.Number.Bin */
+
+.highlight .mf {
+    color: #ae81ff;
+}
+
+
+/* Literal.Number.Float */
+
+.highlight .mh {
+    color: #ae81ff;
+}
+
+
+/* Literal.Number.Hex */
+
+.highlight .mi {
+    color: #ae81ff;
+}
+
+
+/* Literal.Number.Integer */
+
+.highlight .mo {
+    color: #ae81ff;
+}
+
+
+/* Literal.Number.Oct */
+
+.highlight .sa {
+    color: #e6db74;
+}
+
+
+/* Literal.String.Affix */
+
+.highlight .sb {
+    color: #e6db74;
+}
+
+
+/* Literal.String.Backtick */
+
+.highlight .sc {
+    color: #e6db74;
+}
+
+
+/* Literal.String.Char */
+
+.highlight .dl {
+    color: #e6db74;
+}
+
+
+/* Literal.String.Delimiter */
+
+.highlight .sd {
+    color: #e6db74;
+}
+
+
+/* Literal.String.Doc */
+
+.highlight .s2 {
+    color: #e6db74;
+}
+
+
+/* Literal.String.Double */
+
+.highlight .se {
+    color: #ae81ff;
+}
+
+
+/* Literal.String.Escape */
+
+.highlight .sh {
+    color: #e6db74;
+}
+
+
+/* Literal.String.Heredoc */
+
+.highlight .si {
+    color: #e6db74;
+}
+
+
+/* Literal.String.Interpol */
+
+.highlight .sx {
+    color: #e6db74;
+}
+
+
+/* Literal.String.Other */
+
+.highlight .sr {
+    color: #e6db74;
+}
+
+
+/* Literal.String.Regex */
+
+.highlight .s1 {
+    color: #e6db74;
+}
+
+
+/* Literal.String.Single */
+
+.highlight .ss {
+    color: #e6db74;
+}
+
+
+/* Literal.String.Symbol */
+
+.highlight .bp {
+    color: #f8f8f2;
+}
+
+
+/* Name.Builtin.Pseudo */
+
+.highlight .fm {
+    color: #a6e22e;
+}
+
+
+/* Name.Function.Magic */
+
+.highlight .vc {
+    color: #f8f8f2;
+}
+
+
+/* Name.Variable.Class */
+
+.highlight .vg {
+    color: #f8f8f2;
+}
+
+
+/* Name.Variable.Global */
+
+.highlight .vi {
+    color: #f8f8f2;
+}
+
+
+/* Name.Variable.Instance */
+
+.highlight .vm {
+    color: #f8f8f2;
+}
+
+
+/* Name.Variable.Magic */
+
+.highlight .il {
+    color: #ae81ff;
+}
+
+
+/* Literal.Number.Integer.Long */
+
+
+/* Twitter blocks */
+
+blockquote.ltag__twitter-tweet {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background: white;
+    max-width: 500px;
+    font-size: 0.75em;
+    line-height: 1.35em;
+    border-radius: 3px;
+    margin: 1.6em auto !important;
+    min-height: 60px;
+    cursor: pointer;
+    padding: 0px !important;
+    border: 1px solid #dbdbdb !important;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.18)
+}
+
+blockquote.ltag__twitter-tweet:hover {
+    border: 1px solid lightgray !important
+}
+
+blockquote.ltag__twitter-tweet a {
+    color: #55acee
+}
+
+@media screen and (min-width: 360px) {
+    blockquote.ltag__twitter-tweet {
+        min-height: 105px
+    }
+}
+
+blockquote.ltag__twitter-tweet .ltag__twitter-tweet__media {
+    position: relative;
+    overflow: hidden
+}
+
+blockquote.ltag__twitter-tweet .ltag__twitter-tweet__media img {
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px
+}
+
+blockquote.ltag__twitter-tweet .ltag__twitter-tweet__media img.ltag__twitter-tweet__play-butt {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0
+}
+
+blockquote.ltag__twitter-tweet .ltag__twitter-tweet__video {
+    display: none
+}
+
+blockquote.ltag__twitter-tweet .ltag__twitter-tweet__video video {
+    width: 100%
+}
+
+blockquote.ltag__twitter-tweet .ltag__twitter-tweet__header {
+    position: relative;
+    height: 45px
+}
+
+@media screen and (min-width: 360px) {
+    blockquote.ltag__twitter-tweet .ltag__twitter-tweet__header {
+        height: 52px
+    }
+}
+
+blockquote.ltag__twitter-tweet .ltag__twitter-tweet__header .ltag__twitter-tweet__profile-image {
+    height: 36px;
+    min-height: 36px;
+    width: 36px;
+    border-radius: 50px;
+    position: absolute;
+    left: calc(0.3vw + 13px);
+    top: calc(0.3vw + 13px);
+    background-color: #ececec
+}
+
+blockquote.ltag__twitter-tweet .ltag__twitter-tweet__header .ltag__twitter-tweet__twitter-logo {
+    position: absolute;
+    right: calc(0.3vw + 8px);
+    top: 20px;
+    left: auto
+}
+
+blockquote.ltag__twitter-tweet .ltag__twitter-tweet__header .ltag__twitter-tweet__twitter-logo img {
+    height: 24px;
+    min-height: 24px;
+    max-width: 24px;
+    display: inline-block;
+    width: 36px;
+    margin: auto
+}
+
+blockquote.ltag__twitter-tweet .ltag__twitter-tweet__header .ltag__twitter-tweet__full-name {
+    color: #1c2022;
+    position: absolute;
+    left: calc(0.3vw + 57px);
+    top: calc(0.3vw + 13px);
+    font-weight: bold;
+    font-size: 16px
+}
+
+blockquote.ltag__twitter-tweet .ltag__twitter-tweet__header .ltag__twitter-tweet__username {
+    position: absolute;
+    left: calc(0.3vw + 57px);
+    top: calc(0.3vw + 33px);
+    color: #697882;
+    font-size: 14px
+}
+
+blockquote.ltag__twitter-tweet .ltag__twitter-tweet__body {
+    color: #1c2022;
+    font-size: 16px;
+    line-height: 22px;
+    padding: calc(0.3vw + 13px) calc(0.3vw + 13px) 0px
+}
+
+blockquote.ltag__twitter-tweet .ltag__twitter-tweet__body br {
+    line-height: 0 !important
+}
+
+blockquote.ltag__twitter-tweet .ltag__twitter-tweet__date {
+    font-size: 14px;
+    color: #697882;
+    margin-top: 3px;
+    padding: 0px calc(0.3vw + 13px)
+}
+
+blockquote.ltag__twitter-tweet .ltag__twitter-tweet__quote {
+    color: #1c2022;
+    margin: calc(0.3vw + 13px) calc(0.3vw + 13px) 0px;
+    padding: calc(0.2vw + 8px) calc(0.2vw + 8px);
+    border: 1px solid #dce3e8;
+    border-radius: 4px;
+    font-size: 15px;
+    line-height: 1.1em
+}
+
+blockquote.ltag__twitter-tweet .ltag__twitter-tweet__quote:hover {
+    border: 1px solid #a09dad
+}
+
+blockquote.ltag__twitter-tweet .ltag__twitter-tweet__quote .ltag__twitter-tweet__quote__header {
+    padding: 0 0 calc(0.05vw + 3px);
+    font-size: 0.9em
+}
+
+blockquote.ltag__twitter-tweet .ltag__twitter-tweet__quote .ltag__twitter-tweet__quote__header .ltag__twitter-tweet__quote__header__name {
+    font-weight: bold;
+    font-size: 1.1em
+}
+
+blockquote.ltag__twitter-tweet .ltag__twitter-tweet__actions {
+    margin: 6px auto 0px;
+    padding: 0px calc(0.3vw + 13px) 5px;
+    color: #aab8c2;
+    font-size: 14px
+}
+
+blockquote.ltag__twitter-tweet .ltag__twitter-tweet__actions .ltag__twitter-tweet__actions__button {
+    width: 18px;
+    height: 22px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 2px;
+    vertical-align: -7px
+}
+
+blockquote.ltag__twitter-tweet .ltag__twitter-tweet__actions .ltag__twitter-tweet__actions__button:first-child {
+    margin-left: 8px
+}
+
+blockquote.ltag__twitter-tweet .ltag__twitter-tweet__actions img {
+    height: 20px;
+    min-height: 20px
+}
